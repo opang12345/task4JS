@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Variabel dan Tipe Data dalam JavaScript</title>
+</head>
+<body>
+    <h1>Contoh Variabel dan Tipe Data dalam JavaScript</h1>
+    
+    <h2>Informasi Pengguna</h2>
+    
+    <div id="info"></div>
+
+    <script>
+        // Definisi variabel
+        let nama = "John Doe";
+        let umur = 30;
+        let mahasiswa = true;
+        let alamat = null;
+        let hobi = ["Membaca", "Bersepeda", "Berenang"];
+        let pekerjaan = "Pengembang";
+        let pengalaman = 5;
+
+        // Menampilkan data ke dalam elemen HTML
+        document.getElementById("info").innerHTML = `
+            <p><strong>Nama:</strong> ${nama}</p>
+            <p><strong>Umur:</strong> ${umur}</p>
+            <p><strong>Mahasiswa:</strong> ${mahasiswa}</p>
+            <p><strong>Alamat:</strong> ${alamat}</p>
+            <p><strong>Hobi:</strong> ${hobi.join(", ")}</p>
+            <p><strong>Pekerjaan:</strong> ${pekerjaan}</p>
+            <p><strong>Pengalaman:</strong> ${pengalaman} tahun</p>
+        `;
+    </script>
+</body>
+</html>

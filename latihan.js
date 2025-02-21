@@ -1,0 +1,1 @@
+document.getElementById("info").innerHTML = typeof nama + "<br>" + typeof umur + "<br>" + typeof mahasiswa + "<br>" +typeof alamat;
